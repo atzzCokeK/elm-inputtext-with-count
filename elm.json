@@ -3,6 +3,7 @@
     "name" : "atzzCokeK/elm-inputtext-with-count",
     "summary" : "Make inputText with count and set the maximum characters(not words).",
     "license" : "BSD-3-Clause",
+    "repository" : "https://github.com/atzzCokeK/inputTextWithCount" ,
     "version" : "1.0.0",
     "source-directories": [
         "src"
@@ -20,6 +21,6 @@
             "elm/url": "1.0.0 <= v < 2.0.0",
             "elm/virtual-dom": "1.0.2 <= v < 2.0.0"
         }
-    },
+    ,
     "test-dependencies": {}
 }
