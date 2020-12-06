@@ -1,26 +1,21 @@
 {
     "type": "package",
-    "name" : "atzzCokeK/elm-inputtext-with-count",
-    "summary" : "Make inputText with count and set the maximum characters(not words).",
-    "license" : "BSD-3-Clause",
-    "repository" : "https://github.com/atzzCokeK/inputTextWithCount" ,
-    "version" : "1.0.0",
-    "source-directories": [
-        "src"
-    ],
+    "name": "atzzCokeK/elm-inputtext-with-count",
+    "summary": "Make inputText with count and set the maximum characters(not words).",
+    "license": "BSD-3-Clause",
+    "version": "1.0.1",
     "exposed-modules": [
         "InputTextWithCount"
     ],
     "elm-version": "0.19.1 <= v < 0.20.0",
     "dependencies": {
-            "elm/browser": "1.0.2 <= v < 2.0.0",
-            "elm/core": "1.0.5 <= v < 2.0.0",
-            "elm/html": "1.0.0 <= v < 2.0.0",
-            "elm/json": "1.1.3 <= v < 2.0.0",
-            "elm/time": "1.0.0 <= v < 2.0.0",
-            "elm/url": "1.0.0 <= v < 2.0.0",
-            "elm/virtual-dom": "1.0.2 <= v < 2.0.0"
-        }
-    ,
+        "elm/browser": "1.0.2 <= v < 2.0.0",
+        "elm/core": "1.0.5 <= v < 2.0.0",
+        "elm/html": "1.0.0 <= v < 2.0.0",
+        "elm/json": "1.1.3 <= v < 2.0.0",
+        "elm/time": "1.0.0 <= v < 2.0.0",
+        "elm/url": "1.0.0 <= v < 2.0.0",
+        "elm/virtual-dom": "1.0.2 <= v < 2.0.0"
+    },
     "test-dependencies": {}
 }
