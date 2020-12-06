@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "name" : "atzz/elm-inputText-with-count",
+    "name" : "atzzCokeK/elm-inputtext-with-count",
     "summary" : "Make inputText with count and set the maximum characters(not words).",
     "licence" : "BSD-3-Clause",
     "version" : "1.0.0",
