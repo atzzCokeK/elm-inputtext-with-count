@@ -1,14 +1,11 @@
 module InputTextWithCount exposing (newConfig, view)
 
-{-
-This is a module useful when you want to make a inputText has the limited number of characters (not words).
+{-| This is a module useful when you want to make a inputText has the limited number of characters (not words).
 
-# Config
-
+# NewConfig
 @docs newConfig
 
-# InputTextView
-
+# InputText
 @docs view
 
 -}
@@ -18,7 +15,7 @@ import Html.Attributes exposing (class, classList, type_, value)
 import Html.Events exposing (onInput)
 
 
-{- This is the definition of Config to use inputTextWithCount.
+{-| This is the definition of Config to use inputTextWithCount.
 -}
 type Config
     = Config
@@ -27,10 +24,10 @@ type Config
         }
 
 
-{- With this function, you can make a Config.
+{-| With this function, you can make a Config.
 And then you can put it in the following view function.
 
-    newConfig {classPrefix = "message", maxLength = 400  }
+    config = newConfig {classPrefix = "message", maxLength = 400  }
 
 -}
 newConfig :
@@ -45,13 +42,8 @@ newConfig { classPrefix, maxLength } =
         }
 
 
-{- Add a msg to receive a text which is input. And you can add attrs and elements if needed.
-
-    "onInputMsg" is like
-    "type Msg
-            = OnInputMsg String"
+{-| Add a msg to receive a text which is input. And you can add attrs and elements if needed.
 -}
-
 view : Config -> String -> (String -> msg) -> List (Attribute msg) -> List (Html msg) -> Html msg
 view (Config { classPrefix, maxLength }) text onInputMsg attrs elements =
     let
