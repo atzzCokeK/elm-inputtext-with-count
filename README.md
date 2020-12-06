@@ -7,4 +7,4 @@ This package does not have any css or decoration code. So you can make this show
 
 # ExampleView
 This is what we made.
-![image](https://user-images.githubusercontent.com/25091548/101275878-83530e00-37ec-11eb-9b0b-09027e3ad35e.png)
+![image](https://user-images.githubusercontent.com/25091548/101281484-7517e880-3812-11eb-9604-4f575dd3d951.png)
